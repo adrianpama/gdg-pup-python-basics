@@ -7,7 +7,7 @@ try:
 
     # Check the age category
     if user_input < 0:
-        raise ValueError("Age cannot be negative.")
+        print ("Invalis Input: Age cannot be negative.")
     elif user_input < 13:
         print("You are categorized as: Child")
     elif user_input < 20:
