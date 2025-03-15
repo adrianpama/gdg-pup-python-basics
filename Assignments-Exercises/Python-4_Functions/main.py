@@ -14,9 +14,14 @@ try:
     # Get the user's name
     name = input("Enter your name: ")
 
-    # Create and display the greeting message
-    greeting = create_greeting(name)
-    print(f"The greeting message is: {greeting}")
-
+    # Validate the input to ensure it's alphabetic
+    if name.isalpha():
+        greeting = create_greeting(name)
+        print(f"The greeting message is: {greeting}")
+    else:
+        # Handle invalid input that isn't alphabetic
+        print("Invalid input: Please enter a valid name.")
+        
 except ValueError:
+    # Handle unforeseen errors related to value conversion
     print("Invalid input: Please enter a valid name.")
