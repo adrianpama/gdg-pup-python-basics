@@ -2,7 +2,7 @@
 
 # Part 1: For Loop - Printing a list of favorite foods
 # Let's create a list of some favorite foods
-favorite_foods = ['Pizza', 'Burger', 'Ice Cream', 'Pasta', 'Sushi']
+favorite_foods = ['Egg', 'Burger', 'Ice Cream', 'Pasta', 'Pizza']
 
 # Using a for loop to print each food in the list
 print("Here are my favorite foods:")
